@@ -4,7 +4,7 @@ const Jobs=()=>{
     let jobsData=useLoaderData();
     return(
         <div className="jobs-container">
-        {jobsData.map((job) => (
+        {jobsData.jobs.map((job) => (
                 <Link to={job.id.toString()} key={job.id}>
                     <h5>{job.title}</h5>
                     <p>{job.location}</p>
@@ -17,9 +17,8 @@ const Jobs=()=>{
 export default Jobs
 
 
-export const JobsLoader =async ()=>{
-     const data=await fetch("http://localhost:3001/jobs");
-   
-     const result=await data.json();
-     return result
-}
+export const JobsLoader = async () => {
+    const data = await fetch("assets/data.json"); // Adjust URL for production
+    const result = await data.json();
+    return result;
+  };

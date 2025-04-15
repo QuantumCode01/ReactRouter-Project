@@ -23,10 +23,15 @@ export default Jobdetails
 
 export const JobdetailLoader=async({params})=>{
     const {id}=params;
-   const res= await fetch("http://localhost:3001/jobs/"+id);
+   const res= await fetch("assets/data.json");
    if(!res.ok){
     throw Error("Could not found job details")
  }
- return res.json();
+ const data=await res.json();
+ const job=data.jobs.find((j)=>j.id===parseInt(id))
+ if(!job){
+  throw Error("Job not found")
+ }
+ return job;
 
 }
