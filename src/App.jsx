@@ -8,7 +8,7 @@ import Nopage from "./Pages/Nopage";
 import ContactLayout from "./Layout/ContactLayout";
 import Info from "./Pages/Info";
 import Form from "./Pages/Form";
-import JobsLayout from "./Layout/jobsLayout";
+import JobsLayout from "./Layout/JobsLayout";
 import Jobs, { JobsLoader } from "./Pages/Jobs";
 import Jobdetails from "./components/Jobdetails";
 import { JobdetailLoader } from "./components/Jobdetails";
