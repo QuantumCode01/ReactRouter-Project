@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif !important;
+}
+
+.logo{
+    width:120px;
+}
+.navbar-nav{
+    display:flex;
+    justify-content: center;
+    margin-right:auto;
+    padding:5px 20px;
+    gap:50px;
+    border-radius:40px;
+}
+nav>ul li{
+    list-style: none;
+    color:#000;
+}
+.navbar-nav a{
+    text-decoration: none;
+    font-size:18px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap:450px;
+    align-items: center;
+ 
+}
+.navbar-nav .nav-link.active{
+    color:red !important;
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70vh;
+}
+h1{
+   font-size: 60px;
+}
+
+.contact-sub-pages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-sub-pages button{
+    padding:10px 40px;
+    background-color: black;
+    color:#fff;
+    border-radius:10px;
+    cursor: pointer;
+}
+.contact-sub-pages button:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-sub-pages button:active{
+    box-shadow: none;
+}
+.outer-container{
+    display: flex;
+    flex-direction: column;
+    max-width:1200px;
+}
+.jobs-container{
+    display: flex;
+    gap:40px;
+    margin-top:20px;
+}
+.jobs-container a{
+    background-color: #e8e8e8;
+    color: #000000;
+    text-align:start;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:15px 20px;
+    width:12vw;
+    border-radius: 10px;
+    text-decoration: none;
+}

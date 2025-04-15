@@ -1,0 +1,32 @@
+{
+    "jobs":[
+          {
+            "id":1,
+            "title":"Product Manager",
+            "salary":9000,
+            "location":"LosAngeles US",
+            "description":"A Product Manager is responsible for the overall strategy, planning, and execution of a product, ensuring it meets customer needs and aligns with business goals. They bridge the gap between business, technology, and design, leading cross-functional teams and managing the product lifecycle from concept to launch and beyond. "
+          },
+          {
+            "id":2,
+            "title":"UI Designer",
+            "salary":9000,
+            "location":"LosAngeles US",
+            "description":"UI designers focus on designing and optimizing interactive elements like buttons, menus, sliders, and scrollbars, ensuring they are visually appealing and functional. "
+          },
+          {
+            "id":3,
+            "title":"Full Stack Developer",
+            "salary":9000,
+            "location":"LosAngeles US",
+            "description":"A Full Stack Developer works on both front-end and back-end technologies to build complete web applications. They use languages like JavaScript, React, Node.js, and databases such as SQL or MongoDB. They handle UI/UX design, API development, database management, and performance optimization. Strong problem-solving, version control (Git), and cloud service knowledge are essential for success"
+          },
+          {
+            "id":4,
+            "title":"React Developer",
+            "salary":9000,
+            "location":"LosAngeles US",
+            "description":"A React Developer builds dynamic user interfaces using React.js, ensuring high performance and responsiveness. They work with JavaScript, JSX, Redux, and React Hooks to create reusable components. Strong knowledge of REST APIs, Git, and front-end tools like Webpack is essential. They collaborate with designers and backend developers to deliver seamless applications. 🚀 You can find more details here and here. Let me know if you need help refining your resume!"
+          }
+    ]
+}
